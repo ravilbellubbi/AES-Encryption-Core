@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+ver_files=( "../../source/mult_ver_pipeline.v"
+           "../testbench/mult_ver_syn_tb.v"
+	   "../../source/mult_ver.v"
+	   "../testbench/mult_ver_tb.v"
+	   "../../source/mult_ver_booth.v"
+	   "../testbench/mult_ver_booth_tb.v"
+) 
+
+

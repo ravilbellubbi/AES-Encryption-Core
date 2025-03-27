@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+
+ver_files=( "../../synthesis/netlists/AES.v"
+    "../testbench/AES_tb_syn.v"
+)

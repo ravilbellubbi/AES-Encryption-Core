@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+
+ver_files=("../../synthesis/netlists/final_round.v"
+    "../../synthesis/netlists/round.v"
+    "../../synthesis/netlists/key_expand.v"
+    "../../synthesis/netlists/mix_cols.v"
+    "../../synthesis/netlists/shift_rows.v"
+    "../../synthesis/netlists/sub_bytes.v"
+    "../../synthesis/netlists/AES.v"
+
+    "../testbench/AES_tb_syn.v"
+    
+)

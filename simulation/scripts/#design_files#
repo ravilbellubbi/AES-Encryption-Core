@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+ver_files=(case 
+"../../source/final_round.v"
+            "../../source/round.v"
+            "../../source/key_expand.v"
+            "../../source/mix_cols.v"
+            "../../source/shift_rows.v"
+            "../../source/sub_bytes.v"
+            "../../source/AES.v"
+            "../testbench/AES_tb.v"  
+) 
+
+

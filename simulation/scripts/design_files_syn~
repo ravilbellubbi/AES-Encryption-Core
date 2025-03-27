@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+
+ver_files=("../../synthesis/netlists/mult_ver_pipeline.v"
+    "../testbench/mult_ver_syn_tb.v"
+    "../../synthesis/netlists/mult_ver.v"
+    "../testbench/mult_ver_tb.v"
+    "../../synthesis/netlists/mult_ver_booth_syn.v"
+    "../testbench/mult_ver_booth_tb.v"
+)
